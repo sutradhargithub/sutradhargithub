@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url(pic/bg6.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    margin-top: 0%;
+    position: relative;
+    
+}
+
+.navbar{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    margin: auto;
+    padding: 0px ;
+    align-items: center;
+    justify-content: space-between;
+    top: 0%;
+    background: #080918;
+    position: fixed;
+    z-index: 1;
+
+}
+
+.navbar .logo{
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    margin-top: 1%;
+    margin-left: 1px;
+}
+
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(233, 243, 243);
+    margin-top: -3%;
+    transition: .4s ease;
+
+}
+
+ul li a:hover{
+    color: rgb(230,104,59);
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 7%;
+}
+
+.info h1{
+    font-size: 65px;
+    color: rgb(70, 22, 212);
+    text-align: left;
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span{
+    color: rgb(247, 15, 142);
+}
+
+.info a{
+    text-decoration:  none;
+    color: #e8eaec;
+    background: rgb(8, 123, 180);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-flex;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.info a:hover{
+    background: rgb(114, 11, 233);
+}
+
+.image{
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0px;
+}
+
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 80%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+
+.image:hover .girl{
+    left: 55%;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #1f0b19;
+}
+
+.icons ion-icon{
+    margin-left: 7%;
+    color: #1950db;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+}
+
+.icons ion-icon:hover{
+    color: rgb(4, 14, 17);
+}
+
+/* About page  */
+
+.about a{
+    text-decoration:  none;
+    color: #f2f4f7;
+    background: rgb(4, 83, 122);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-flex;
+    overflow:hidden;
+    transition: .9s;
+}   
+
+.about h1{
+
+  color: #dc1ac9;
+}
+
+.about {
+        width: 100%;
+        background: url(pic/bg6.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+        text-align: center; /* Center all text within .about */
+}
+
+.imgx {
+    display: block; /* Center the image horizontally */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 300px;
+    height: 300px;
+    border: 3px solid rgb(234, 66, 66);
+    border-radius: 150px;
+}
+
+/* Services page */
+
+:root {
+  --main-color: #dc1ac9; /* Light blue for icons and hover effects */
+  --bg-color: #98e4eb; /* Light gray for borders */
+  --snd-bg-color: #1e20a5; /* Very light gray for service boxes background */
+}
+
+.services{
+  width: 100%;
+  background: url(pic/bg6.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+}
+
+
+.services h1 {
+  margin-bottom: 5rem;
+  color:rgb(30, 8, 8) ;
+  
+}
+ 
+.heading span {
+  color: var(--main-color);
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap; /* Prevent boxes from wrapping */
+  gap: 1rem; /* Reduce gap between boxes */
+}
+
+.services-container .services-box {
+  flex: 1 0 33%; /* Adjust width for 3 boxes in a row */
+  background: var(--snd-bg-color);
+  padding: 3rem 2rem 4rem;
+  border-radius: 2rem;
+  text-align: left; /* Left-align text */
+  border: none; /* Remove border */
+  transition: 0.5s ease;
+  box-sizing: border-box; /* Ensure width includes padding and borders */
+}
+
+.services-container .services-box:hover {
+  border-color: var(--main-color);
+  transform: scale(1.02);
+}
+
+.services-box i {
+  font-size: 2rem; /* Reduce icon size */
+  display: block; /* Display icons as blocks */
+  margin-bottom: 1rem; /* Add margin below icons */
+  color: var(--main-color);
+  
+}
+
+.services-box h3 {
+  margin-top: 0; /* Remove top margin for better spacing */
+  font-size: 2rem;
+
+  color: #e9dddd; /* Text color */
+}
+
+.services-box p {
+  font-size: 1rem;
+  margin: 0 0 1rem; /* Adjust bottom margin */
+  color: #ece3e3; /* Text color */
+  overflow-wrap: break-word; /* Wrap text within box */
+}
+
+.btn {
+    text-decoration:  none;
+    color: #e8eaec;
+    background: rgb(8, 123, 180);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-flex; 
+    overflow: hidden;
+    transition: .5s;
+
+}
+.btn a:hover{
+    background: rgb(114, 11, 233);
+}
+
+/* --My Skills page---*/
+
+
+
+.My-skills {
+  margin-top: 0;
+  background-color: #12172b;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 80px;
+ color: #ece3e3;
+}
+
+.skills-area {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20%;
+  margin-bottom: 50px;
+}
+
+.skill {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.skill-title {
+  font-size: 40px;
+  color: #e8eaec;
+  margin-bottom: 10px;
+}
+
+.skill-bar {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  height: 40px;
+  z-index: -1;
+  border-radius: 100px;
+  position: absolute;
+}
+
+
+ .skill-faill {
+  background: blue;
+  height: 40px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 30px;
+  overflow: hidden;
+} 
+
+.skill-percent {
+  font-size: 30px;
+  color: #f51717;
+}
+
+.html {
+  animation: html 2s;
+  width: 90%;
+}
+
+.css {
+  animation: css 2s;
+  width: 60%;
+}
+
+.js {
+  animation: js 2s;
+  width: 50%;
+}
+
+/*
+@keyframes html {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+@keyframes css {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes js {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .skills-area {
+    padding: 0 5%;
+  }
+}
+
+*/
+.My-works{
+  width: 100%;
+  background: url(pic/bg6.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.container h1{
+   color: #0f0a0e;
+}
+
+.project {
+  color: white;
+  background-color: rgb(8, 29, 30);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  
+}
+.project h2 {
+  font-size: 24px;
+ 
+}
+.project p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* My gallary   */
+.gallary{
+  width: 100%;
+  background: url(pic/bg6.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+}
+
+.gallary h1{
+  margin-top: 0px;
+  padding: 40px;
+  color: #1a0d0d;
+}
+
+.gallary img{
+  height: 300px;
+  width: 300px;
+  align-self: center;
+  align-content: center;
+}
+
+/* Education */
+
+.education{
+  width: 100%;
+  background: url(pic/bg6.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+
+}
+.education img{
+  height: 100px;
+  width: 100px;
+}
+
+.education h1{
+  color: #1a0d0d;
+  margin-bottom: 30px;
+  padding: 40px;
+}
+
+.education h2{
+  color: #1a0d0d;
+  margin-left: 50px;
+  padding: 10px;
+}
+.education  p{
+  color: #1a0d0d;
+  margin-left: 60px;
+}
+
+
+/*  Contact page  */
+
+.contact-section {
+  text-align: center;
+  padding: 80px;
+  width: 100%;
+  background: url(pic/bg6.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.contact-section h1 {
+  font-size: 40px;
+  padding: 10px;
+  color: #0f0a0e;
+}
+.contact-section p {
+  font-size: 25px;
+}
+.contact-list {
+  display: flex;
+ position: relative;
+ justify-content: center;
+}
+.contact-list a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(21, 78, 135);
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 100px;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin-top: 50px;
+}
